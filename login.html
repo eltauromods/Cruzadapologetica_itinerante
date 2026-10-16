@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Entrar · Cruzada Apologética Itinerante</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0a1225">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=EB+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script>
+  try { document.documentElement.dataset.theme = localStorage.getItem('cai_theme') || 'light'; } catch (e) {}
+</script>
+</head>
+<body class="auth-body">
+<div class="auth">
+  <aside class="auth-side">
+    <a class="brand" href="./" aria-label="Cruzada Apologética Itinerante, inicio">
+      <img src="assets/img/logo-cai-96.png" alt="" width="44" height="44">
+      <span>Cruzada Apologética Itinerante<small>Apologetas católicos de habla hispana</small></span>
+    </a>
+    <img class="mark" src="assets/img/logo-cai.png" alt="">
+    <div class="grow"></div>
+    <blockquote>«Estén siempre dispuestos a dar razón de su esperanza a todo el que se la pida, pero háganlo con mansedumbre y respeto.»<cite>1 Pedro 3,15-16</cite></blockquote>
+  </aside>
+
+  <main class="auth-main">
+    <div class="auth-top">
+      <a class="back" href="./" data-icon="left" data-size="16">&nbsp;Volver al inicio</a>
+      <button class="icon-btn" id="theme" aria-label="Cambiar entre modo día y noche"></button>
+    </div>
+    <div class="auth-box" id="box"></div>
+    <p class="auth-foot">© 2026 Cruzada Apologética Itinerante.</p>
+  </main>
+</div>
+<div id="modal-root"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/config.js"></script>
+<script src="js/data.js"></script>
+<script src="js/store.js"></script>
+<script src="js/common.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
